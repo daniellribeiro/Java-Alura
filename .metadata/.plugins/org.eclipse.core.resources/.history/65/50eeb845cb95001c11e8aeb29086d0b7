@@ -1,0 +1,6 @@
+package br.com.bytebank.banco.teste;
+
+public class TesteArrayReferencias {
+	 ContaCorrente[] contas = new ContaCorrente[5];
+
+}

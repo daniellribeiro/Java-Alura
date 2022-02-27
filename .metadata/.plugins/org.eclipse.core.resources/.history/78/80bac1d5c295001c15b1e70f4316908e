@@ -1,0 +1,17 @@
+package br.com.bytebank.banco.teste;
+
+import br.com.bytebank.banco.modelo.Conta;
+
+public class TesteString {
+
+	public static void main(String[] args) {
+		String nome = "Daniel";
+		
+		Conta conta = new Conta();
+		
+		nome = nome.replace("D", "e");
+		System.out.println(nome);
+		
+	}
+
+}

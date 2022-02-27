@@ -2,4 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="modelo.ContaCorrente"/>
 <fullyQualifiedTypeName name="modelo.ContaPoupanca"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaCorrente"/>
 </qualifiedTypeNameHistroy>
