@@ -3,6 +3,7 @@
 <fullyQualifiedTypeName name="modelo.ContaCorrente"/>
 <fullyQualifiedTypeName name="modelo.ContaPoupanca"/>
 <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.GuardadorDeContas"/>
-<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
 <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaCorrente"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Cliente"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
 </qualifiedTypeNameHistroy>
