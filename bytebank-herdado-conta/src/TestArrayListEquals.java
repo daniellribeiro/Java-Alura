@@ -18,6 +18,8 @@ public class TestArrayListEquals {
 
 	    System.out.println("Já existe? " + existe);
 
+	
+	    
 	    for(Conta conta : lista){
 	        System.out.println(conta);
 	    }

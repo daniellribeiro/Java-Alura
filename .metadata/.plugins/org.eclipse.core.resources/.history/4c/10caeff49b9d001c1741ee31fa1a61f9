@@ -1,0 +1,6 @@
+
+public class Teste {
+    Integer i = new Integer(29);
+    
+    i.doubleValue();
+}
