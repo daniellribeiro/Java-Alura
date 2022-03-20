@@ -1,0 +1,16 @@
+package br.com.alura.java.io.teste;
+
+import java.io.IOException;
+import java.io.PrintStream;
+
+public class TesteEscritaOrubtStreamPrintWriter {
+	    public static void main(String[] args) throws IOException {
+	    	PrintStream bw = PrintStream("lorem3.txt"));
+	    	bw.write("texto123321");
+			bw.newLine();
+			bw.newLine();
+			bw.write("texto123321");
+			bw.close();
+	    }
+
+}
