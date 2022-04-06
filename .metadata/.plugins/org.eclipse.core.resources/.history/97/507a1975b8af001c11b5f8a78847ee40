@@ -1,5 +1,0 @@
-import br.com.bytebank.banco.teste;
-
-public class TesteUnicodeEEnding extends teste {
-
-}

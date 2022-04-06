@@ -1,7 +1,0 @@
-package br.com.bytebank.banco.teste;
-
-public class TesteUnicodeEEnding {
-	public static void main(String[] args) {
-		
-	}
-}
