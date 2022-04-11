@@ -1,0 +1,10 @@
+package curso1;
+
+public class TestandoListas {
+	public static void main(String[] args) {
+		String cursoA = "curso A";
+		String cursoB = "curso B";
+		String cursoC = "curso C";
+		
+	}
+}
