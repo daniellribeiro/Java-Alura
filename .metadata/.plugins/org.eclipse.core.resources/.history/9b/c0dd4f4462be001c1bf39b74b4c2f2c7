@@ -1,0 +1,11 @@
+package curso1;
+
+
+public class TestaCurso {
+
+    public static void main(String[] args) {
+        Curso curso = new Curso("Curso1","professor1");
+        
+        curso.getAulas().add(new Aula("Curso2",21));
+    }
+}

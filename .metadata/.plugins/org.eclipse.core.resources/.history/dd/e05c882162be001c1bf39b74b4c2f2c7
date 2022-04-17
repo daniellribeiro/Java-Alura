@@ -1,0 +1,10 @@
+package curso1;
+
+
+public class TestaCurso {
+
+    public static void main(String[] args) {
+        // crie um novo curso passando o nome e instrutor no construtor
+        // chame o getter da lista de aulas do curso e imprima o resultado
+    }
+}
