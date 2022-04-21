@@ -1,6 +1,0 @@
-package curso1;
-
-public class Aula {
-	private String titulo;
-	private int tempo;
-}
