@@ -62,5 +62,6 @@ public class Curso {
     	return this.alunos.contains(outroAluno);
     }
     
-
+    @Override
+    public void equals
 }

@@ -62,5 +62,10 @@ public class Curso {
     	return this.alunos.contains(outroAluno);
     }
     
-
+    @Override
+    public boolean equals(Object obj){
+    	Aluno outroAluno = (Aluno) obj;
+    	
+    	
+    }
 }

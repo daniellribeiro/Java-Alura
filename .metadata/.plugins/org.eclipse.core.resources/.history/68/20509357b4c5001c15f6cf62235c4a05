@@ -61,6 +61,4 @@ public class Curso {
     public boolean estaMatriculado(Aluno outroAluno){
     	return this.alunos.contains(outroAluno);
     }
-    
-
 }

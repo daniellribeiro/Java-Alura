@@ -9,7 +9,7 @@ public class TesteMatriculaAluno {
 		Aluno aluno1 = new Aluno("Aluno 1",1);
 		Aluno aluno2 = new Aluno("Aluno 2",2);
 		Aluno aluno3 = new Aluno("Aluno 3",3);
-		Aluno aluno4 = new Aluno("Aluno 4",4);
+		//Aluno aluno4 = new Aluno("Aluno 4",4);
 		
 		curso.matricula(aluno1);
 		curso.matricula(aluno2);
@@ -23,7 +23,7 @@ public class TesteMatriculaAluno {
 		
 		//alunos.add(aluno4);
 		
-		System.out.println(curso.estaMatriculado(aluno4));
+		curso.estaMatriculado(aluno1);
 	}
 	
 }
