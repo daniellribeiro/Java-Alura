@@ -49,12 +49,4 @@ public class Curso {
     public int getTempoTotal(){
     	return tempoTotal;
     }
-    
-    public void matricula(Aluno aluno){
-    	this.alunos.add(aluno);
-    }
-    
-    public Set<Aluno> getAlunos(){
-    	return Collections.unmodifiableSet(alunos);
-    }
 }

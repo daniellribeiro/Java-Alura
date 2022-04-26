@@ -1,0 +1,6 @@
+package curso1;
+
+public class TesteMatriculaAluno {
+	Curso curso = new Curso();
+	
+}

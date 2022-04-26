@@ -1,0 +1,10 @@
+package curso1;
+
+public class TesteMatriculaAluno {
+	Curso curso = new Curso("Curso 1","Daniel");
+	
+	Aluno aluno1 = new Aluno("Aluno 1",1);
+	Aluno aluno2 = new Aluno("Aluno 2",2);
+	Aluno aluno3 = new Aluno("Aluno 3",3);
+	
+}
