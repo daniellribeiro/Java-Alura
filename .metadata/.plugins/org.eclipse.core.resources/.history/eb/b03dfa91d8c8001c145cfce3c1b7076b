@@ -1,0 +1,7 @@
+package curso1;
+
+public class IteratorTeste {
+	public static void main(String[] args) {
+		List<String> letras = new LinkedList<>();
+	}
+}

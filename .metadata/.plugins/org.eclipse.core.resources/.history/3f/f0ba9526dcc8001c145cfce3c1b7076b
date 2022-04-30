@@ -1,0 +1,7 @@
+package curso1;
+
+public class TesteFuncionario implements Comparator {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,9 @@
+package curso1;
+
+import java.util.Comparator;
+
+public class TesteFuncionario implements Comparator<Funcionario> {
+	public static void main(String[] args) {
+		
+	}
+}
