@@ -62,6 +62,10 @@ public class Curso {
     	return this.alunos.contains(outroAluno);
     }
     
-    
+    public void matricula(Aluno aluno) {
+        this.alunos.add(aluno);
+
+        this.matriculaParaAluno.put(aluno.getNumeroMatricula(), aluno);
+    }
 
 }
