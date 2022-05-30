@@ -1,0 +1,11 @@
+import java.util.function.Consumer;
+
+public class aula2 {
+public static void main(String[] args) {
+	palavras.forEach(new Consumer<String>(){
+	    public void accept(String palavra) {
+	        System.out.println(palavra);
+	    }
+	});
+}
+}

@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
+public class aula2 {
+	public static void main(String[] args) {
+		List palavras = new ArrayList();
+		palavras.add("zebra");
+		palavras.add("Daniel");
+		palavras.add("arvore");
+		palavras.add("teste");
+
+		palavras.forEach(s -> System.out.println(s));
+		
+		palavras.sort((String s1, String s2) -> Integer.compare(s1.length(), s2.length()));
+	}
+}

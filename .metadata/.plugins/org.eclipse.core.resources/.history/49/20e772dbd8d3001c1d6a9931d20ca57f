@@ -1,7 +1,0 @@
-
-public class Teste2 implements TesteAbstrata{
-	public static void main(String[] args) {
-		
-	}
-}
-

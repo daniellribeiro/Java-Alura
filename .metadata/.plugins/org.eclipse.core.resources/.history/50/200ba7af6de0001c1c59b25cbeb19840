@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+import java.util.function.Consumer;
+
+public class aula2 {
+public static void main(String[] args) {
+	ArrayList<String> palavras = new ArrayList()<>;
+	palavras.add("a");
+	palavras.add("b");
+	palavras.forEach(new Consumer<String>(){
+	    public void accept(String palavra) {
+	        System.out.println(palavra);
+	    }
+	});
+}
+}
