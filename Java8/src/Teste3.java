@@ -1,6 +1,8 @@
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
+import java.util.NoSuchElementException;
+import java.util.OptionalDouble;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Teste3 {
@@ -17,7 +19,17 @@ public class Teste3 {
 		
 		//cursos.stream().filter(c -> c.getAlunos() > 50).forEach(c -> System.out.println(c.getNome()));
 		
-		Stream<String> cursosNome = cursos.stream().map(Curso::getNome);
-		cursosNome.forEach(System.out::println);
+		List<Curso> cursoFiltrado;
+		
+		  cursoFiltrado = cursos.stream()
+				.filter(c -> c.getAlunos() > 50).collect(Collectors.toList());
+
+			cursoFiltrado.stream().forEach(c -> System.out.println(c.getNome()));
+			
+
+			OptionalDouble cursoMedia = cursos.stream().mapToInt(Curso::getAlunos).average();
+			
+			System.out.println(cursoMedia.getAsDouble());
 	}
+	
 }
