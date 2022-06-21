@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy 0 elements to &apos;bytebank-herdado-conta/src/br.com.bytebank.banco.teste&apos;&#x0D;&#x0A;- Destination element: &apos;bytebank-herdado-conta/src/br.com.bytebank.banco.teste&apos;" description="Copy compilation units" destination="=bytebank-herdado-conta/src&lt;br.com.bytebank.banco.teste" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1648596758892" units="0" version="1.0"/>
-</session>
